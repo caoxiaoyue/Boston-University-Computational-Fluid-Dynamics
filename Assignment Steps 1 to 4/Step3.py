@@ -18,7 +18,7 @@ u[:,0] = set_init_conditions(nx, dx)
 
 # March along time steps
 for n in range(1,nt):
-    for i in range(2,nx):
+    for i in range(2,nx-1):
         u[i,n] = u[i,n-1] + nu*dt/(dx**2)*(u[i+1,n-1] - 2.0*u[i,n-1] + u[i-1,n-1])
 
 # Plot the velocities at the end of the computation
