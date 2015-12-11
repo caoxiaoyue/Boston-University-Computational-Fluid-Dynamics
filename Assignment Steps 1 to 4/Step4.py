@@ -27,7 +27,7 @@ u[:,0] = -2*nu*dphi_dx(x,nu)/phi(x,nu) + 4
 
 # March along time steps
 for n in range(1,nt):
-    for i in range(2,nx-1):
+    for i in range(1,nx-1):
         u[i,n] = u[i,n-1] - u[i,n-1]*dt/dx*(u[i,n-1] - u[i-1,n-1]) + nu*dt/(dx**2)*(u[i+1,n-1] - 2.0*u[i,n-1] + u[i-1,n-1])
 
 # Plot the velocities at the end of the computation
