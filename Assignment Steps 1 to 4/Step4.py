@@ -44,7 +44,7 @@ u[nx-1,:] = u[0,:]
 for n in range(nt-1):
     un = u[:,n]
     #u[0,n+1], u[nx-1,n+1] = set_boundary_conditions(bc)
-    for i in range(1,nx-1):
+    for i in range(0,nx):
         u[i, n+1] = un[i] - un[i]*dt/dx*(un[i] - un[im1[i]]) +\
                     nu*dt/(dx**2)*(un[ip1[i]] - 2.0*un[i] + un[im1[i]])
 
