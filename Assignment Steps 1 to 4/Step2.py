@@ -12,7 +12,7 @@ bc = (1,1)  # Tuple of boundary conditions
 dx = float( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
 
 # Create an empty array for all velocity time steps including t=0
-u = np.zeros((nx, nt))
+u = np.zeros((nx, nt), dtype=np.float64)
 
 # Set the initial and boundary conditions
 u[:,0] = set_init_conditions(nx, dx)

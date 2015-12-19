@@ -12,7 +12,7 @@ def set_init_conditions(nx, dx, ny, dy):
     """
 
     # Create an array of zeros
-    u = np.zeros((nx, ny))
+    u = np.zeros((nx, ny), dtype=np.float64)
 
     # Loop over all x grid points and set the initial conditions
     for i in range(nx):
