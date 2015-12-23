@@ -9,7 +9,7 @@ nx = 100        # number of x-grid points
 nt = 50         # number of time steps
 sigma = 0.8	    # CFL number (sigma = c*dt/dx)
 c = 1.0         # transport velocity
-bc = (1,1)      # Tuple of boundary conditions
+bc = (1, 1)      # Tuple of boundary conditions
 dx = float( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
 dt = sigma*dx/c   # time step size
 
@@ -18,11 +18,11 @@ u = np.zeros((nx, nt))
 
 # Set the initial and boundary conditions
 u[:, 0] = set_init_conditions(nx, dx)
-u[0, :],u[nx-1, :] = set_boundary_conditions(bc)
+u[0, :], u[nx-1, :] = set_boundary_conditions(bc)
 
 # March along time steps
 for n in range(nt-1):
-    for i in range(1,nx):
+    for i in range(1, nx):
         u[i, n+1] = u[i, n] - sigma*(u[i, n] - u[i-1, n])
 
 # Plot the velocities at the end of the computation
@@ -32,7 +32,7 @@ fig = plt.figure()
 ax = plt.subplot(111)
 plt.ylabel('velocity')
 
-for it in range(0,nt,5):
+for it in range(0, nt, 5):
     t = it * dt
     ax.plot(x, u[:, it], label="t="+str(t))
 
