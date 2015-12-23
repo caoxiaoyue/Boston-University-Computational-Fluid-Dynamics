@@ -6,9 +6,10 @@ import matplotlib.pyplot as plt
 xDomain = (0.0,2.0*np.pi)     # x domain
 nx = 70     # number of x-grid points
 nt = 50     # number of time steps
-dt = 0.01   # time step size
+beta = 0.25	# beta = nu*dt/dx**2
 nu = 0.1    # diffusion coefficient
 dx = float( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
+dt = beta*(dx**2)/nu   # time step size
 
 # Create an empty array for all velocity time steps including t=0
 u = np.zeros((nx, nt))
@@ -46,7 +47,7 @@ for n in range(nt-1):
     #u[0,n+1], u[nx-1,n+1] = set_boundary_conditions(bc)
     for i in range(0,nx):
         u[i, n+1] = un[i] - un[i]*dt/dx*(un[i] - un[im1[i]]) +\
-                    nu*dt/(dx**2)*(un[ip1[i]] - 2.0*un[i] + un[im1[i]])
+                    beta*(un[ip1[i]] - 2.0*un[i] + un[im1[i]])
 
 # Analytical solution
 def phiAnalytical(x,t):
