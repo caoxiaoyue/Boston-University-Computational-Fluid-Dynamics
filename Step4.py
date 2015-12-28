@@ -1,5 +1,5 @@
 import numpy as np
-from boundary_conditions import *
+from boundary_conditions1_4 import *
 import matplotlib.pyplot as plt
 
 # Initial problem parameters
