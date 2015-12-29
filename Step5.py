@@ -4,17 +4,19 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 import numpy as np
 from initial_conditions5_8 import *
+from differences import *
 
 # Initial problem parameters
 xDomain = (0.0, 2.0)    # x domain
 yDomain = (0.0, 2.0)    # y domain
-nx = 50     # number of x-grid points
-ny = 50     # number of y-grid points
+nx = 100     # number of x-grid points
+ny = 100     # number of y-grid points
 nt = 50     # number of time steps
-dt = 0.01   # time step size
+sigma = 0.25  # CFL number (sigma = c*dt/dx or sigma = c*dt/dy)
 c = 1.0     # transport velocity
 dx = float( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
 dy = float( (yDomain[1]-yDomain[0])/(ny - 1) )  # delta y
+dt = np.minimum(sigma * dx / c, sigma * dy / c)  # time step size
 
 # Create an empty array for all velocity time steps including t=0
 u = np.zeros((nx, ny, nt), dtype=np.float64)
@@ -32,8 +34,8 @@ for n in range(nt-1):
     for i in range(1,nx):
         for j in range(1, ny):
             u[i, j, n+1] = un[i, j] - \
-                           c*dt/dx*(un[i, j] - un[i-1, j]) - \
-                           c*dt/dy*(un[i, j] - un[i, j-1])
+                           c*dt*firstDerBD(un[:, j], i, dx) - \
+                           c*dt*firstDerBD(un[i, :], j, dy)
 
 # Plot the velocity surface at the initial and final conditions
 fig = plt.figure()

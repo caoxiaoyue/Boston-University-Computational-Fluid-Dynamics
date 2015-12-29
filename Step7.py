@@ -4,17 +4,19 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 import numpy as np
 from initial_conditions5_8 import *
+from differences import *
 
 # Initial problem parameters
 xDomain = (0.0, 2.0)    # x domain
 yDomain = (0.0, 2.0)    # y domain
-nx = 30     # number of x-grid points
-ny = 30     # number of y-grid points
+nx = 100     # number of x-grid points
+ny = 100     # number of y-grid points
 nt = 50     # number of time steps
-dt = np.float64(0.01)   # time step size
+beta = np.float64(0.1)	    # beta = nu*dt/dx**2 or nu*dt/dy**2
 nu = 0.1    # viscosity
 dx = np.float64( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
 dy = np.float64( (yDomain[1]-yDomain[0])/(ny - 1) )  # delta y
+dt = np.minimum(beta*(dx**2)/nu, beta*(dy**2)/nu)   # time step size
 
 # Create an empty array for all velocity time steps including t=0
 u = np.zeros((nx, ny, nt), dtype=np.float64)
@@ -32,8 +34,8 @@ for n in range(nt-1):
     for i in range(1,nx-1):
         for j in range(1, ny-1):
             u[i, j, n+1] = un[i, j] + \
-                           nu*dt/(dx**2)*(un[i+1, j] - 2*un[i, j] + un[i-1,j]) + \
-                           nu*dt/(dy**2)*(un[i, j+1] - 2*un[i, j] + un[i, j-1])
+                           nu * dt * secDerCD(un[:, j], i, dx) + \
+                           nu * dt * secDerCD(un[i, :], j, dy)
 
 # Plot the velocity surface at the initial and final conditions
 fig = plt.figure()

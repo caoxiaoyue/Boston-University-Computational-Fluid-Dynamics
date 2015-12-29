@@ -1,6 +1,7 @@
 import numpy as np
 from boundary_conditions1_4 import *
 from initial_conditions1_3 import *
+from differences import *
 import matplotlib.pyplot as plt
 
 # Initial problem parameters
@@ -20,8 +21,9 @@ u[0,:],u[nx-1,:] = set_boundary_conditions(bc)
 
 # March along time steps
 for n in range(nt-1):
+    un = u[:, n]
     for i in range(1,nx):
-        u[i,n+1] = u[i,n] - u[i,n]*dt/dx*(u[i,n] - u[i-1,n])
+        u[i,n+1] = un[i] - un[i]*dt*firstDerBD(un, i, dx)
 
 # Plot the velocities at the end of the computation
 x = np.arange(xDomain[0], xDomain[1]+dx, dx)

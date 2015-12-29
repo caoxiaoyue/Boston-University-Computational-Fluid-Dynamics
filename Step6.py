@@ -4,14 +4,15 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 import numpy as np
 from initial_conditions5_8 import *
+from differences import *
 
 # Initial problem parameters
 xDomain = (0.0, 2.0)    # x domain
 yDomain = (0.0, 2.0)    # y domain
 nx = 20     # number of x-grid points
 ny = 20     # number of y-grid points
-nt = 50     # number of time steps
-dt = 0.01   # time step size
+nt = 500     # number of time steps
+dt = 0.001   # time step size
 dx = float( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
 dy = float( (yDomain[1]-yDomain[0])/(ny - 1) )  # delta y
 
@@ -38,11 +39,11 @@ for n in range(nt-1):
     for i in range(1,nx):
         for j in range(1, ny):
             u[i, j, n+1] = un[i, j] - \
-                           un[i, j]*dt/dx*(un[i, j] - un[i-1, j]) - \
-                           vn[i, j]*dt/dy*(un[i, j] - un[i, j-1])
+                           un[i, j] * dt * firstDerBD(un[:, j], i, dx) - \
+                           vn[i, j] * dt * firstDerBD(un[i, :], j, dy)
             v[i, j, n+1] = vn[i, j] - \
-                           un[i, j]*dt/dx*(vn[i, j] - vn[i-1, j]) - \
-                           vn[i, j]*dt/dy*(vn[i, j] - vn[i, j-1])
+                           un[i, j] * dt * firstDerBD(vn[:, j], i, dx) - \
+                           vn[i, j] * dt * firstDerBD(vn[i, :], j, dy)
 
 # Plot the vector plot of the velocity at the initial and final conditions
 X = np.linspace(xDomain[0], xDomain[1], nx)

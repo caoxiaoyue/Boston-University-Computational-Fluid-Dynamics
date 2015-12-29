@@ -1,5 +1,6 @@
 import numpy as np
 from boundary_conditions1_4 import *
+from differences import *
 import matplotlib.pyplot as plt
 
 # Initial problem parameters

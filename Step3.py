@@ -1,16 +1,18 @@
 import numpy as np
 from boundary_conditions1_4 import *
 from initial_conditions1_3 import *
+from differences import *
 import matplotlib.pyplot as plt
 
 # Initial problem parameters
 xDomain = (0.0,2.0)     # x domain
-nx = 40     # number of x-grid points
+nx = 100     # number of x-grid points
 nt = 50     # number of time steps
-dt = 0.01   # time step size
+beta = np.float64(0.1)	    # beta = nu*dt/dx**2
 nu = 0.1    # diffusion coefficient
 bc = (1,1)  # Tuple of boundary conditions
 dx = float( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
+dt = beta*(dx**2)/nu   # time step size
 
 # Create an empty array for all velocity time steps including t=0
 u = np.zeros((nx, nt))
@@ -21,9 +23,9 @@ u[0,:],u[nx-1,:] = set_boundary_conditions(bc)
 
 # March along time steps
 for n in range(nt-1):
-    un = u[:,n]
+    un = u[:, n]
     for i in range(1,nx-1):
-        u[i,n+1] = u[i,n] + nu*dt/(dx**2)*(u[i+1,n] - 2.0*u[i,n] + u[i-1,n])
+        u[i,n+1] = un[i] + nu*dt*secDerCD(un, i, dx)
 
 # Plot the velocities at the end of the computation
 x = np.arange(xDomain[0], xDomain[1]+dx, dx)
