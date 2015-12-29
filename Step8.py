@@ -61,6 +61,10 @@ V0 = v[:, :, 0]
 U = u[:, :, nt-1]
 V = v[:, :, nt-1]
 
+print X.shape, Y.shape
+print U0.shape, V0.shape
+print U.shape, V.shape
+
 fig0, ax0 = plt.subplots()
 strm0 = ax0.streamplot(X, Y, U0, V0, color=U, linewidth=2, cmap=plt.cm.coolwarm)
 fig0.colorbar(strm0.lines)
