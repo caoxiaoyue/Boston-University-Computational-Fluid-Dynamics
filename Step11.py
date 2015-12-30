@@ -17,7 +17,8 @@ rho = 1.0   # density
 beta = np.float64(0.1)	    # beta = nu*dt/dx**2 or nu*dt/dy**2
 dx = np.float64( (xDomain[1]-xDomain[0])/(nx - 1) )  # delta x
 dy = np.float64( (yDomain[1]-yDomain[0])/(ny - 1) )  # delta y
-dt = min(beta * (dx**2) / nu, beta * (dy ** 2) / nu)   # time step size
+#dt = min(beta * (dx**2) / nu, beta * (dy ** 2) / nu)   # time step size
+dt = 0.01
 
 # Initial and Boundary Conditions
 u = np.zeros((nx, ny, nt), dtype=np.float64)
