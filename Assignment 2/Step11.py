@@ -35,9 +35,9 @@ for n in range(nt-1):
 
     for i in range(nx-1):
         for j in range(ny-1):
-            b[i, j] = rho * ((firstDerCD(u[:, j, n], i, dx) + firstDerCD(v[i, :, n], j, dy)) / dt +
-                             (firstDerCD(u[:, j, n], i, dx)) ** 2 +
-                             2 * firstDerCD(u[i, :, n], j, dy) * firstDerCD(v[:, j, n], i, dx) +
+            b[i, j] = rho * ((firstDerCD(u[:, j, n], i, dx) + firstDerCD(v[i, :, n], j, dy)) / dt -
+                             (firstDerCD(u[:, j, n], i, dx)) ** 2 -
+                             2 * firstDerCD(u[i, :, n], j, dy) * firstDerCD(v[:, j, n], i, dx) -
                              (firstDerCD(v[i, :, n], j, dy)) ** 2)
 
     for iit in range(nit):
