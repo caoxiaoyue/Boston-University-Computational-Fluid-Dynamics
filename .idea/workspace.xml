@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b8e5a4-a957-4d33-b798-6ce5eebbb8e1" name="Default" comment="">
+    <list default="true" id="8df560d4-be8c-437e-9b14-fa7e31ca4f30" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.directory" afterPath="$PROJECT_DIR$/.directory" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Computational-Fluid-Dynamics-BU.iml" afterPath="$PROJECT_DIR$/.idea/Computational-Fluid-Dynamics-BU.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment 1/Step1.py" afterPath="$PROJECT_DIR$/Assignment 1/Step1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment 1/Step2.py" afterPath="$PROJECT_DIR$/Assignment 1/Step2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment 1/Step3.py" afterPath="$PROJECT_DIR$/Assignment 1/Step3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment 1/Step4.py" afterPath="$PROJECT_DIR$/Assignment 1/Step4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment 1/differences.py" afterPath="$PROJECT_DIR$/Assignment 1/differences.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment 2/Step11.py" afterPath="$PROJECT_DIR$/Assignment 2/Step11.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment 2/differences.py" afterPath="$PROJECT_DIR$/Assignment 2/differences.py" />
     </list>
     <ignored path="Computational-Fluid-Dynamics-BU.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,12 +28,12 @@
     <favorites_list name="Computational-Fluid-Dynamics-BU" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Step11.py" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="Step11.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment 2/Step11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state vertical-scroll-proportion="-0.43584523">
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -40,50 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Step1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment 1/Step1.py">
+      <file leaf-file-name="differences.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment 2/differences.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Step2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment 1/Step2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Step3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment 1/Step3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Step4.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assignment 1/Step4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3828921">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,65 +59,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assignment Steps 1 to 4/Step 1.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy" />
-        <option value="$PROJECT_DIR$/Assignment Steps 1 to 4/boundary_conditions.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 1 to 4/Step1.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 1 to 4/Step3.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/Step2.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/boundary_conditions57.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/initial_conditions57.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/initial_conditions58.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 1 to 4/initial_conditions.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 1 to 4/Step2.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/Step6.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/Step8.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/Step7.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 5 to 8/Step5.py" />
-        <option value="$PROJECT_DIR$/Assignment Steps 1 to 4/Step4.py" />
-        <option value="$PROJECT_DIR$/differences.py" />
-        <option value="$PROJECT_DIR$/Step4.py" />
-        <option value="$PROJECT_DIR$/Step3.py" />
-        <option value="$PROJECT_DIR$/Step2.py" />
-        <option value="$PROJECT_DIR$/Step1.py" />
-        <option value="$PROJECT_DIR$/Step6.py" />
-        <option value="$PROJECT_DIR$/Step7.py" />
-        <option value="$PROJECT_DIR$/Step5.py" />
-        <option value="$PROJECT_DIR$/Step9.py" />
-        <option value="$PROJECT_DIR$/Step10.py" />
-        <option value="$PROJECT_DIR$/solvePoisson.py" />
-        <option value="$PROJECT_DIR$/Step8.py" />
-        <option value="$PROJECT_DIR$/Step11.py" />
         <option value="$PROJECT_DIR$/Assignment 2/Step11.py" />
-        <option value="$PROJECT_DIR$/Assignment 1/Step1.py" />
-        <option value="$PROJECT_DIR$/Assignment 1/Step2.py" />
-        <option value="$PROJECT_DIR$/Assignment 1/Step3.py" />
-        <option value="$PROJECT_DIR$/Assignment 1/Step4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1404" />
+    <option name="width" value="1400" />
     <option name="height" value="870" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Buildout</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,11 +74,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -184,9 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,20 +125,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computational-Fluid-Dynamics-BU" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computational-Fluid-Dynamics-BU" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment 1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -242,16 +134,9 @@
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Assignment Steps 1 to 4" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.Step4">
-    <configuration default="false" name="Step11 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Step11">
+    <configuration default="false" name="Step11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -264,74 +149,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Computational-Fluid-Dynamics-BU" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 2/Step11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Step8" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Computational-Fluid-Dynamics-BU" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Step8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Step2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Computational-Fluid-Dynamics-BU" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 1/Step2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Step3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Computational-Fluid-Dynamics-BU" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 1/Step3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Step4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Computational-Fluid-Dynamics-BU" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 1/Step4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -458,56 +275,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Step1" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Computational-Fluid-Dynamics-BU" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 1/Step1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Step11" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Computational-Fluid-Dynamics-BU" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Step11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Python.Step1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Step11" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Step11 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Step8" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Step2" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Step3" />
-      <item index="6" class="java.lang.String" itemvalue="Python.Step4" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.Step11" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Step4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Step3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Step2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Step11 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Step8" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.Step11" />
       </list>
     </recent_temporary>
   </component>
@@ -517,83 +290,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="51b8e5a4-a957-4d33-b798-6ce5eebbb8e1" name="Default" comment="" />
-      <created>1449705393904</created>
+      <changelist id="8df560d4-be8c-437e-9b14-fa7e31ca4f30" name="Default" comment="" />
+      <created>1451786634513</created>
       <option name="number" value="Default" />
-      <updated>1449705393904</updated>
+      <updated>1451786634513</updated>
     </task>
-    <task id="LOCAL-00001" summary="Finished Step 1 of Assignments">
-      <created>1449717517586</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1449717517586</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Finished Step 2 of Assignments.  Started Step 3.">
-      <created>1449717972545</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1449717972545</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Finished Step 3 of Assignments.">
-      <created>1449718228927</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1449718228927</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Fixed bugs in Steps 1-3, and completed step 4.">
-      <created>1449887418193</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1449887418193</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adjusted step 4 to use periodic boundary conditions.">
-      <created>1450047201135</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1450047201135</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Adjusted step 4 to use periodic boundary conditions.">
-      <created>1450052112201</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1450052112201</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Completed Step 10.">
-      <created>1451410609247</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1451410609247</updated>
-    </task>
-    <task id="LOCAL-00008" summary="First commit of Step 11.  Still not quite right.">
-      <created>1451424483621</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1451424483621</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1404" height="870" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1400" height="870" extended-state="4" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24498567" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39896372" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -608,137 +331,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished Step 1 of Assignments" />
-    <MESSAGE value="Finished Step 2 of Assignments.  Started Step 3." />
-    <MESSAGE value="Finished Step 3 of Assignments." />
-    <MESSAGE value="Fixed bugs in Steps 1-3, and completed step 4." />
-    <MESSAGE value="Adjusted step 4 to use periodic boundary conditions." />
-    <MESSAGE value="Completed Step 10." />
-    <MESSAGE value="First commit of Step 11.  Still not quite right." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit of Step 11.  Still not quite right." />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment Steps 1 to 4/Step1.py</url>
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/streamplot_demo_features.py">
+    <entry file="file://$PROJECT_DIR$/Assignment 2/differences.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/streamplot_demo_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/dist-packages/matplotlib/axes/_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057208236">
-          <caret line="214" column="22" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/surface3d_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45824847">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/streamplot_demo_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5637584">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 2/Step11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state vertical-scroll-proportion="-0.43584523">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 1/Step1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 1/Step2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 1/Step3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 1/Step4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3828921">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

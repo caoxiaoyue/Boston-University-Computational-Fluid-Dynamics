@@ -1,6 +1,6 @@
 # This file has all of the differences that discretize derivates of first and second order
 
-import numpy as np
+from pylab import *
 
 
 def firstDerBD(vec, index, delta):
