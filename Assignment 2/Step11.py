@@ -6,10 +6,10 @@ from differences import *
 # Initial problem parameters
 xDomain = (0.0, 2.0)  # x domain
 yDomain = (0.0, 2.0)  # y domain
-nx = 50  # number of x-grid points
-ny = 50  # number of y-grid points
-nt = 50    # number of time steps
-nit = 100   # number of iterations
+nx = 20  # number of x-grid points
+ny = 20  # number of y-grid points
+nt = 20    # number of time steps
+nit = 20   # number of iterations
 nu = 0.1   # viscosity
 rho = 1.0   # density
 beta = np.float64(0.1)	    # beta = nu*dt/dx**2 or nu*dt/dy**2
@@ -68,7 +68,6 @@ for n in range(nt-1):
                             1.0/rho * dt * firstDerCD(pn[i, :], j, dy) + \
                              nu * dt * secDerCD(vn[:, j], 1, dx) + \
                              nu * dt * secDerCD(vn[i, :], j, dy)
-            speed[i, j, n + 1] = math.sqrt(u[i, j, n + 1]**2 + v[i, j, n + 1]**2)
     u[0, :, n] = 0.0
     u[nx-1, :, n] = 0.0
     u[:, 0, n] = 0.0
@@ -77,6 +76,8 @@ for n in range(nt-1):
     v[nx-1, :, n] = 0.0
     v[:, 0, n] = 0.0
     v[:, ny-1, n] = 0.0
+    
+speed = sqrt(u**2 + v**2)
 
 # Plots
 X = np.linspace(xDomain[0], xDomain[1], nx)
